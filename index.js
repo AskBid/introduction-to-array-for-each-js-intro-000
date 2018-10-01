@@ -10,4 +10,5 @@ function doToElementsInArray(array, callback) {
 function changeCompletely(element, index, array) {
     array[index] = 'something else'
     console.log('i m changin something')
+    console.log(`element: ${element}`)
 }

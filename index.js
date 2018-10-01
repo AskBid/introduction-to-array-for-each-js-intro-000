@@ -2,6 +2,7 @@
 
 function doToElementsInArray(array, callback) {
     array.forEach(callback)
+    console.log('running to do...')
 }
 
 // Add your changeCompletely() function here:
